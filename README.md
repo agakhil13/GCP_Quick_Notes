@@ -1,3 +1,5 @@
+##  GCP_Quick_Notes
+
 - 5 Charactersitics of cloud
   - On Demand Self service
   - Broad Network Access
@@ -136,15 +138,9 @@
 - Auto ML - Fully managed service to build ML product with less knowledge.
 
 - Operation Suite (Stackdriver) - Tool for logging, monitoring and application diagnostics. Can also get connect to AWS.
-
-	Monitoring - Cloud Monitoring is used for collecting and view metrics on resource performance.
-
-	Logging - who did what,where and when. Connection records can be viewed in Cloud Logging.
-
-	Error Reporting - Alerts you when new application error occurs.
-
-	Debugger - Cloud Debugger is used by developers to identify and correct errors in code.
-	
-	Trace - Cloud Trace is used to understand performance in distributed systems.
-	
-	Profiler - Gather CPU and memory usage from your application.
+	- Monitoring - Cloud Monitoring is used for collecting and view metrics on resource performance.
+	- Logging - who did what,where and when. Connection records can be viewed in Cloud Logging.
+	- Error Reporting - Alerts you when new application error occurs.
+	- Debugger - Cloud Debugger is used by developers to identify and correct errors in code.
+	- Trace - Cloud Trace is used to understand performance in distributed systems.
+	- Profiler - Gather CPU and memory usage from your application.
