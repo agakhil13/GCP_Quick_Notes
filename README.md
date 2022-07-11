@@ -63,80 +63,79 @@
   - Career Peering: 
 	  connect to google's edge location using service providers.
 	  
-Resource Hierarchy
+- Resource Hierarchy
   - Service level resources
-      Compute Instance VM's
-	  Cloud storage buckets
-	  Cloud SQL databases
+  	-Compute Instance VM's
+	- Cloud storage buckets
+	- Cloud SQL databases
   - Account level resources
-	  Organization
-	  Projects
-	  Folders
+  	- Organization
+  	- Folders
+  	- Projects
 	  
-Cost Management and Budget
-  - Committed Use Discounts (CUD's)
-	  1 or 3 year commitment
-	  Spend based and resource based commitment type
-		Spend-based commitment - Discount for a commitment to spend a minimum amount for a service(hour) in a particular region. Available for Cloud SQL and Google CLoud VMWare Engine. Applies only to CPU and memory usage.
-		Resource-based commitment - Discount for a commitment to spend a minimum amount for Compute Engine resources in a particular region. Available for vCPU, Memory, GPU and Local SSD. Can be used across projects using shared discount.
-  - Sustained-use Discount
-	  Automatic discounts for running compute engine resources a significant portion of the billing month. Applies to vCPU and memory for most Compute engine.
+- Cost Management and Budget
+	- Committed Use Discounts (CUD's): 1 or 3 year commitment
+	- Spend based and resource based commitment type
+		- Spend-based commitment - Discount for a commitment to spend a minimum amount for a service(hour) in a particular region. Available for Cloud SQL and Google CLoud VMWare Engine. Applies only to CPU and memory usage.
+		- Resource-based commitment - Discount for a commitment to spend a minimum amount for Compute Engine resources in a particular region. Available for vCPU, Memory, GPU and Local SSD. Can be used across projects using shared discount.
+	- Sustained-use Discount
+		- Automatic discounts for running compute engine resources a significant portion of the billing month. Applies to vCPU and memory for most Compute engine.
 
-GCP pricing Calculator - Can help you to identify the pricing for resources you planned to use.
+- GCP pricing Calculator - Can help you to identify the pricing for resources you planned to use.
 
-Cloud Billing Budgets - Enables you to track your actual Google Cloud spend against your planned spend.
+- Cloud Billing Budgets - Enables you to track your actual Google Cloud spend against your planned spend.
 
-Export Billing - Daily cost detail. Pricing. Store in BigQuery.
+- Export Billing - Daily cost detail. Pricing. Store in BigQuery.
 
-IAM - Who (Identity) has what access (role) for which resource.
+- IAM - Who (Identity) has what access (role) for which resource.
   - Principle of least privilege - Apply only the minimal access level required for what's needed.
   - Set policies at organization or project level rather than at the resource level.
   - Grant roles for users or group at the folder level rather than at rhe project level.
   - Grant roles to Google groups rather than individual users.
 
-Cloud Identity - Identity as a Service (IDaaS)
+- Cloud Identity - Identity as a Service (IDaaS)
 
-VPC
+- VPC
   - Can send and receive traffic with IPv4 addresses.
   - Default CIDR /20, can be extended to /16.
   - All IPs fit within subnet 10.128.0.0/9.
   - Auto mode N/w can convert to Custom mode. Reverse is not possible.
   - Google recommend to use custom mode VPC as they are flexible.
   
-Flow Logs - Real-time visibility into network throughput and performance. Useful for real-time security analysis.
+- Flow Logs - Real-time visibility into network throughput and performance. Useful for real-time security analysis.
 
-Load Balancer
+- Load Balancer
   - HTTP(s)
   - SSL Proxy
   - TCP proxy
   - Network
   - Internal
   
-BigQuery - For analysis of large data.
+- BigQuery - For analysis of large data.
 
-Pub/Sub - Queue for notification.
+- Pub/Sub - Queue for notification.
 
-Composer - Built on Apache Airflow, workflow orchestration service 
+- Composer - Built on Apache Airflow, workflow orchestration service 
 
-Dataflow - Apache beam pipelines for batch and realtime datastream,for ETL. Serverless. Cloud Dataflow is a stream and batch processing service
+- Dataflow - Apache beam pipelines for batch and realtime datastream,for ETL. Serverless. Cloud Dataflow is a stream and batch processing service
 
-Dataproc - Run hadoop spark on google cloud. Fully managed instance.
+- Dataproc - Run hadoop spark on google cloud. Fully managed instance.
 
-Datalab - Tool for machine learning and visualization.
+- Datalab - Tool for machine learning and visualization.
 
-Cloud Data Fusion - Cloud Data Fusion is a managed service that is designed for building data transformation pipelines.
+- Cloud Data Fusion - Cloud Data Fusion is a managed service that is designed for building data transformation pipelines.
 
-Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
+- Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
 
-Sight - Vision (clasify images and hand written text data). Video Intelligence (recognize a vast number of objecta and streaming videos).
+- Sight - Vision (clasify images and hand written text data). Video Intelligence (recognize a vast number of objecta and streaming videos).
 
-Language - Natural Language (uses unstructred text). Translation (Enables you to translate between languages).
+- Language - Natural Language (uses unstructred text). Translation (Enables you to translate between languages).
 
-Conversation - Dialog Flow, Speech to text, text to speech.
+- Conversation - Dialog Flow, Speech to text, text to speech.
 
-Auto ML - Fully managed service to build ML product with less knowledge.
+- Auto ML - Fully managed service to build ML product with less knowledge.
 
-Operation Suite (Stackdriver) - Tool for logging, monitoring and application diagnostics. Can also get connect to AWS.
+- Operation Suite (Stackdriver) - Tool for logging, monitoring and application diagnostics. Can also get connect to AWS.
 
 	Monitoring - Cloud Monitoring is used for collecting and view metrics on resource performance.
 
